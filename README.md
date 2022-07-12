@@ -14,6 +14,7 @@
 
 > > ## _How the API work_
 > >
+> > -npm install
 > > - npm run start
 > > - type localhost:3000/api/images?filename=[@imagename]&width=[@width]&height=[@height]
 > > - I use the middleware to check if this image was resized before in thumb folder
