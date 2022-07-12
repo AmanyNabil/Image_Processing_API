@@ -2,26 +2,25 @@
 
 > ## **Short description for the project**
 
-> > The target of this project is to display the image with the requested width and height and if this image was resized before so display it without needing to resize it again.
+> The target of this project is to display the image with the requested width and height and if this image was resized before so display it without needing to resize it again.
+This App Developed using  Nodejs, Typescript, Postgres and Express. the tools used for testing are Jasmine and Suppertest.
 
-> > This App Developed using  Nodejs, Typescript, Postgres And Express And the tools used for testing are Jasmine and Suppertest
+>  ## _Images available_
+> 
+>  - encenadaport.jpg
+>  - fjord.jpg
+>  - icelandwaterfall.jpg
+>  - palmtunnel.jpg
+>  - santamonica.jpg
 
-> > ## _Images available_
-> >
-> > - encenadaport.jpg
-> > - fjord.jpg
-> > - icelandwaterfall.jpg
-> > - palmtunnel.jpg
-> > - santamonica.jpg
-
-> > ## _How the API work_
-> >
-> > - npm install
-> > - npm run start
-> > - type localhost:3000/api/images?filename=[@imagename]&width=[@width]&height=[@height]
-> > - I use the middleware to check if this image was resized before in thumb folder
-> > - If found in thumb folder it will return with this image
-> > - If not found in thumb folder then will go to resize image and put it in thumb folder
+>  ## _How the API work_
+> 
+>  - npm install
+>  - npm run start
+>  - type localhost:3000/api/images?filename=[@imagename]&width=[@width]&height=[@height]
+>  - I use the middleware to check if this image was resized before in thumb folder
+>  - If found in thumb folder it will return with this image
+>  - If not found in thumb folder then will go to resize image and put it in thumb folder
 
 > ## The packages I used with dependencies
 
