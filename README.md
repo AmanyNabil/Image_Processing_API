@@ -4,6 +4,8 @@
 
 > > The target of this project is to display the image with the requested width and height and if this image was resized before so display it without needing to resize it again.
 
+> > This App Developed using  Nodejs, Typescript, Postgres And Express And the tools used for testing are Jasmine and Suppertest
+
 > > ## _Images available_
 > >
 > > - encenadaport.jpg
@@ -48,7 +50,7 @@
 
 > ## Notes
 >
-> - if node_modules folder not exict so you need to inntall all packages in [Package.json] by npm install.
+> - if node_modules folder not exict so you need to install all packages in [Package.json] by npm install.
 > - I use the middleware for caching to check if image is exist.
 > - I use dependencies for routing and testing
 > - No issuses Accure in [npm run test] and [npm run Test]
